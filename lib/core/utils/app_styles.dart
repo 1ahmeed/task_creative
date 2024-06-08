@@ -77,7 +77,7 @@ class AppStyles {
     // Color(0xff000000),
   );
   static const textStyle15BlackO400 = TextStyle(
-    fontFamily: AppConstant.fontFamilyArial,
+    fontFamily: AppConstant.fontFamilyAlmarai,
     fontWeight: FontWeight.w400,
     fontSize: 15,
     color:AppColors.blackO ,

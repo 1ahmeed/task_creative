@@ -59,9 +59,12 @@ class SearchSection extends StatelessWidget {
                   const SizedBox(width: 10,),
                   Center(child: Badge(
                       backgroundColor:AppColors.orange ,
-                     offset:AppConstant.checkArabic()?const Offset(13, -8): const Offset(-13, -8),
+
+                     offset:AppConstant.checkArabic()?const Offset(13, -10): const Offset(-13, -8),
                       label: const Text("50",style: AppStyles.textStyle10BlackO400,),
-                      child: SvgPicture.asset(AppAssets.iconsCart))),
+                      child: SvgPicture.asset(AppAssets.iconsCart)),
+
+                  ),
                   const SizedBox(width: 3),
                   Container(
                     height: 20,
@@ -69,7 +72,7 @@ class SearchSection extends StatelessWidget {
                     color: AppColors.lemon,
                   ),
                   const SizedBox(width: 3),
-                   Text(S.of(context).p300)
+                   Text(S.of(context).p300,style: AppStyles.textStyle14BlackO400,)
                 ],
               ),
             ),

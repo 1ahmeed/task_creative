@@ -22,7 +22,7 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
-        "akeelaMeal": MessageLookupByLibrary.simpleMessage("وجبه الاكيله"),
+        "akeelaMeal": MessageLookupByLibrary.simpleMessage("وجبة الاكيلة"),
         "all": MessageLookupByLibrary.simpleMessage("الكل"),
         "burger": MessageLookupByLibrary.simpleMessage("برجر"),
         "categories": MessageLookupByLibrary.simpleMessage("الاقسام"),
@@ -30,23 +30,23 @@ class MessageLookup extends MessageLookupByLibrary {
         "cookDoor": MessageLookupByLibrary.simpleMessage("كوك دوور"),
         "familyMeal": MessageLookupByLibrary.simpleMessage("وجبه العائله"),
         "friedChicken": MessageLookupByLibrary.simpleMessage("فرايد تشيكن"),
-        "grocery": MessageLookupByLibrary.simpleMessage("بقاله"),
-        "hendyRestaurant": MessageLookupByLibrary.simpleMessage("مطعم الهندي"),
+        "grocery": MessageLookupByLibrary.simpleMessage("بقالة"),
+        "hendyRestaurant": MessageLookupByLibrary.simpleMessage("مطعم هندي"),
         "mayLike": MessageLookupByLibrary.simpleMessage("قد يعجبك"),
-        "mostRequest": MessageLookupByLibrary.simpleMessage("الاكثر طلب"),
+        "mostRequest": MessageLookupByLibrary.simpleMessage("الأكثر طلبا"),
         "p15": MessageLookupByLibrary.simpleMessage("15 ج"),
         "p30": MessageLookupByLibrary.simpleMessage("30 ج"),
         "p300": MessageLookupByLibrary.simpleMessage("300 ج"),
-        "p45": MessageLookupByLibrary.simpleMessage("45 دقيه"),
+        "p45": MessageLookupByLibrary.simpleMessage("45 دقيقة"),
         "p60": MessageLookupByLibrary.simpleMessage("60 ج"),
-        "quickOrder": MessageLookupByLibrary.simpleMessage("طلب سريع"),
+        "quickOrder": MessageLookupByLibrary.simpleMessage("الطلب السريع"),
         "reOrder": MessageLookupByLibrary.simpleMessage("اعاده الطلب"),
-        "restaurants": MessageLookupByLibrary.simpleMessage("مطاعم"),
+        "restaurants": MessageLookupByLibrary.simpleMessage("المطاعم"),
         "salamShop": MessageLookupByLibrary.simpleMessage("محل السلام"),
-        "sceptraCafe": MessageLookupByLibrary.simpleMessage("سكبترا كافيه"),
+        "sceptraCafe": MessageLookupByLibrary.simpleMessage("سكبترا كافية"),
         "searchMealOrRestaurant":
-            MessageLookupByLibrary.simpleMessage("البحث عن وجبات او مطاعم"),
+            MessageLookupByLibrary.simpleMessage("ابحث عن وجبة او مطعم"),
         "tantaStadArea":
-            MessageLookupByLibrary.simpleMessage("طنطا,منطقه الاستاد")
+            MessageLookupByLibrary.simpleMessage("طنطا,منطقة الاستاد")
       };
 }

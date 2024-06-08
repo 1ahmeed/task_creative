@@ -31,7 +31,7 @@ class BuildMostRequestItem extends StatelessWidget {
           children: [
             Center(child: Image.asset(mostRequestModel.image,)),
             Padding(
-              padding: const EdgeInsets.only(left: 8.0),
+              padding: const EdgeInsets.only(left: 8.0,right: 8),
               child: Text(mostRequestModel.title,style: AppStyles.textStyle15BlackO400,),
             ),
             Row(
@@ -55,10 +55,12 @@ class BuildMostRequestItem extends StatelessWidget {
                   Text("${S.of(context).p45} .",style: AppStyles.textStyle12Grey400.copyWith(
                       color: AppColors.grey
                   ),),
+                 const SizedBox(width: 3,),
                   SvgPicture.asset(AppAssets.iconsDelivery),
-                  Text("${S.of(context).p15 }.",style: AppStyles.textStyle12Grey400.copyWith(
+                  Text("${S.of(context).p15 } .",style: AppStyles.textStyle12Grey400.copyWith(
                       color: AppColors.grey
                   ),),
+                  const SizedBox(width: 3,),
                   SvgPicture.asset(AppAssets.iconsStar),
                   Text("4.5",style: AppStyles.textStyle12Grey400.copyWith(
                       color: AppColors.grey
